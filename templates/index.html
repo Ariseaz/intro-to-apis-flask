@@ -1,12 +1,12 @@
 <html>
     <head>
-        <title>Complimentr</title>
+        <title>Complimentraz</title>
         <link rel="stylesheet" href="{{ url_for('static', filename='assets/main.css') }}">
     </head>
 <body>
 <div id="app" class="container">
 
-<h1>Complimentr</h1>
+<h1>Complimentraz</h1>
 {% for flash_message in get_flashed_messages() %}
     <div class="flash">{{ flash_message }}</div>
 {% endfor %}
